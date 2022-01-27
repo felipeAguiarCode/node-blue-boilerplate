@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@/src/*":["../src/*"],
+      "@/tests/*": ["../__tests__/*"]
+    }
+  }
+}
