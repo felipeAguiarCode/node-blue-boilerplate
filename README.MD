@@ -1,6 +1,5 @@
 <div align="center">
 
-
   <img src="./.github/assets/blue-saiyan-bg.png" alt="Logo" height="200">
   <h1 align="center"><strong>NODE BLUE WEB API</strong></h1>
 
@@ -17,13 +16,23 @@
 [![Node.js version][nodejs-badge]][nodejs]
 
 # Dependências
-- `Typescript`
+### dependências de desenvolvimento
+- [Typescript][typescript-npm] - Escreva um javascript fortemente tipado e mais previsível
+- [Ts-node-dev][ts-node-dev-npm] - Executa e monitra alterações no código Typescript para hot-reload
+- [Eslint][eslint-npm] - Crie styleguides para padronizar o seu código
+- [Prettier][prettier-npm] - Formatador automático e opinativo de código
+- [Jest][jest-npm] - Ferramenta para criar testes
+
+### dependências gerais-
+- [Express][express-npm] - Framework para trabalhar com requisições http de maneira minimalista
+- [Dotenv][dotenv-npm] - Ferramenta para trabalhar com variáveis de ambiente
+- [Cors][cors-npnm] - Gerenciador de permissões de acesso a api
 
 # Como utilizar
 
-### Usando esse repositório como base para seus projetos
+### Usando esse repositório como base para seus projetosW
 
-Para usar esse projeto como template click em **[Use this template][repo-template-action]**. Implemente seus códigos em `src` e testes unitários em `__tests__`.
+Para usar esse projeto como template click em **[Use this template]**. Implemente seus códigos em `src` e testes unitários em `__tests__`.
 
 ### Clonando o repositório
 
@@ -60,3 +69,11 @@ icons by [Pino Lamanna][dribble-icon]
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.13-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v16.x/docs/api/
 [dribble-icon]: https://dribbble.com/Schakalwal
+[eslint-npm]:https://www.npmjs.com/package/eslint
+[typescript-npm]:https://www.npmjs.com/package/typescript
+[prettier-npm]:https://www.npmjs.com/package/prettier
+[ts-node-dev-npm]:https://www.npmjs.com/package/ts-node-dev
+[jest-npm]:https://www.npmjs.com/package/jest
+[express-npm]:https://www.npmjs.com/package/express
+[dotenv-npm]:https://www.npmjs.com/package/dotenv
+[cors-npnm]:https://www.npmjs.com/package/cors
