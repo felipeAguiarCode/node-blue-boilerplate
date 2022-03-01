@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "noEmit":true,
     "target": "es2019",
     "allowJs": true,
     "esModuleInterop": true,
@@ -8,8 +9,8 @@
     "baseUrl": "src",
     "paths": {
       "@/*": ["*"],
-      "@/src/*":["../src/*"],
-      "@/tests/*": ["../__tests__/*"],
+      "@/src/*":["src/*"],
+      "@/tests/*": ["__tests__/*"],
     }
   }
 }
