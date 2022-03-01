@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: 'node',
+  testEnvironment: "node",
   transform: {
     "^.+\\.tsx?$": "ts-jest"
   },
@@ -11,10 +11,10 @@ module.exports = {
     "json",
     "node",
   ],
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|js)x?$',
-  coverageDirectory: 'coverage',
+  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|js)x?$",
+  coverageDirectory: "coverage",
   collectCoverageFrom: [
-    'src/**/*.{ts,tsx,js,jsx}',
-    '!src/**/*.d.ts',
+    "src/**/*.{ts,tsx,js,jsx}",
+    "!src/**/*.d.ts",
   ],
 };
