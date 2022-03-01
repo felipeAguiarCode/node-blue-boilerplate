@@ -17,5 +17,16 @@
       "plugin:jest/recommended",
       "prettier"
     ],
-    "rules": {}
+    "rules": {
+      "no-extra-semi":"error",
+      "@typescript-eslint/strict-boolean-expressions": "off",
+      "@typescript-eslint/consistent-type-definitions": "off",
+      "@typescript-eslint/comma-spacing": "off",
+      "@typescript-eslint/return-await": "off",
+      "@typescript-eslint/restrict-template-expressions": "off",
+      "@typescript-eslint/no-misused-promises": "off",
+      "@typescript-eslint/no-namespace": "off",
+      "@typescript-eslint/quotes": ["error", "double"],
+      "import/export": "off"
+    }
 }

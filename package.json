@@ -9,7 +9,8 @@
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.release.json --noEmit false",
     "build:watch": "tsc -w -p tsconfig.release.json --noEmit false",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },

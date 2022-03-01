@@ -1,1 +1,6 @@
-    console.log("ola mundosas")
+console.log("ola mundosas");
+
+
+function nome(){
+  return "oi"
+}
