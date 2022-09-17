@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"types": ["node", "jest"],
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"removeComments": true,
+		"esModuleInterop": true
+	}
+}

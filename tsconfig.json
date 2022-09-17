@@ -1,11 +1,4 @@
 {
-	"compilerOptions": {
-		"types": ["node", "jest"],
-		"rootDir": "./src",
-		"outDir": "./dist",
-		"removeComments": true,
-		"esModuleInterop": true
-	},
 	"include": ["src/**/*", "**/*.test.ts"],
 	"exclude": ["src/**/*.spec.ts", "**/demos/*.ts"]
 }
