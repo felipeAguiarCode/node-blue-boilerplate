@@ -1,12 +1,6 @@
 {
-    "singleQuote": false,
-    "trailingComma": "all",
-    "overrides": [
-      {
-        "files": "*.ts, *.js, *.tsx, *.jsx",
-        "options": {
-          "parser": "typescript"
-        }
-      }
-    ]
+  "semi": false,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "printWidth": 80
 }

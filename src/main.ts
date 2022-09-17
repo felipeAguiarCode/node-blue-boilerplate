@@ -1,6 +1,6 @@
-console.log("ola mundosas");
+console.log('ola mundosas')
 
-
-function nome(){
-  return "oi"
+//ola
+export function getHello() {
+	return 'hello world'
 }

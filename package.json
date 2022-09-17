@@ -1,39 +1,39 @@
 {
-  "name": "node-blue-webapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
-    "start": "node build/src/main.js",
-    "prebuild": "npm run lint",
-    "build": "tsc -p tsconfig.release.json --noEmit false",
-    "build:watch": "tsc -w -p tsconfig.release.json --noEmit false",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/express": "^4.17.13",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^17.0.12",
-    "@typescript-eslint/eslint-plugin": "^5.10.1",
-    "@typescript-eslint/parser": "^5.10.1",
-    "eslint": "^8.7.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^26.0.0",
-    "jest": "^27.4.7",
-    "prettier": "^2.5.1",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.5.5"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^14.3.2",
-    "express": "^4.17.2"
-  }
+	"name": "node-blue-webapi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+		"start": "node build/src/main.js",
+		"prebuild": "npm run lint",
+		"build": "tsc -p tsconfig.json --noEmit false",
+		"build:watch": "tsc -w -p tsconfig.release.json --noEmit false",
+		"lint": "eslint . --ext .ts",
+		"lint:fix": "eslint . --ext .ts --fix",
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^17.0.12",
+		"@typescript-eslint/eslint-plugin": "^5.37.0",
+		"@typescript-eslint/parser": "^5.37.0",
+		"eslint": "^8.7.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-jest": "^26.0.0",
+		"prettier": "^2.5.1",
+		"ts-jest": "^29.0.1",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^4.8.3"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^14.3.2",
+		"express": "^4.17.2"
+	}
 }

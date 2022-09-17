@@ -1,16 +1,11 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "noEmit":true,
-    "target": "es2019",
-    "allowJs": true,
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "baseUrl": "src",
-    "paths": {
-      "@/*": ["*"],
-      "@/src/*":["src/*"],
-      "@/tests/*": ["__tests__/*"],
-    }
-  }
+	"compilerOptions": {
+		"types": ["node", "jest"],
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"removeComments": true,
+		"esModuleInterop": true
+	},
+	"include": ["src/**/*", "**/*.test.ts"],
+	"exclude": ["src/**/*.spec.ts", "**/demos/*.ts"]
 }
