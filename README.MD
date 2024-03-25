@@ -1,44 +1,52 @@
 <div align="center">
 
   <img src="./.github/assets/blue-saiyan-bg.png" alt="Logo" height="200">
-  <h1 align="center"><strong>NODE BLUE WEB API</strong></h1>
-
+  <h1 align="center"><strong>NODE BOILERPLATE - BLUE EDITION</strong></h1>
   <p align="center">
-	A <b>Node</b> boilerplate with <b>Typescript</b>, <b>Express</b> and <b>Jest</b> base project to improve your produtivity.
-    <br />
+	  Don't start a new Node project from zero!<br> Use this simple <b>Nodejs</b> boilerplate with pre-configured <b>Typescript</b> in a modern way.
   </p>
 
 </div>
 
 <br />
 
-[![TypeScript version][ts-badge]][typescript-4-8]
-[![Node.js version][nodejs-badge]][nodejs]
+  <!-- Badges -->
+<div align="center">
+  
+  [![TypeScript version][ts-badge]][typescript-5-4]
+  [![Node.js version][nodejs-badge]][nodejs]
+
+</div>
 
 # 🚀 Technologies
 
-This code source was developed with the following technologies:
+This code source was developed with the following items:
 
-### ⚛️ Main Techs
+### 📦 Dependencies
 
-- [Node.js](https://nodejs.org/en/)
-- [Typescript][typescript-npm]
-- [Jest][jest-npm]
+- [typescript][typescript-npm] - Superset for application scale JavaScript development
+- [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript
+- [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
+- [@types/node][@types/node-npm] - type definitions for node
 
-### 📚 Libs & Dependencys
+### 📄 Files
 
-- [Ts-node-dev][ts-node-dev-npm]
-- [Eslint][eslint-npm]
-- [Prettier][prettier-npm]
-- [Express][express-npm]
-- [Dotenv][dotenv-npm]
-- [Cors][cors-npnm]
+- `.gitignore` - Ignore folders like node_modules
+- `.env` - Enviroment variables
+- `tsconfig.json` - Typescript configure Options
 
-# :information_source: How To Use
+### ⚡ Scripts
+
+- `npm run dist`: Compiles TypeScript files to JavaScript in the dist directory.
+- `npm run start:dev`: Runs the server in development mode with environment variables loaded from the .env file.
+- `npm run start:watch`: Runs the server in development mode with support for automatic reload on file changes.
+- `npm run start:dist`: Compiles the project and runs the compiled version from the dist directory.
+
+# 👨‍💻 How To Use
 
 click in **[Use this template]** OR
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v16](https://nodejs.org/en/) or higher + [NPM v8](https://nodejs.org/en/) or higher installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v20+](https://nodejs.org/en/) + [NPM v10+](https://nodejs.org/en/) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
@@ -49,21 +57,7 @@ $ cd node-blue-boilerplate
 
 # Install dependencies
 $ npm install
-
-# Run the tests
-$ npm run test
 ```
-
-# Scripts
-
-- `start:dev` - run code with ts-node-dev
-- `start` - run code from build
-- `prebuild` - run lint to all files
-- `build` - transpile ts to js in dist root
-- `build:watch` - generate a build with hot-reload
-- `lint` - runt lint in ts files
-- `test` - run test coverage
-- `test:watch"` - run test coverage hot-reload when code file modified
 
 ## Author
 
@@ -76,16 +70,12 @@ $ npm run test
 icons by [Pino Lamanna][dribble-icon]
 
 [typescript]: https://www.typescriptlang.org/
-[typescript-4-8]: https://www.typescriptlang.org/
-[ts-badge]: https://img.shields.io/badge/TypeScript-4.8-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.13-blue.svg
-[nodejs]: https://nodejs.org/dist/latest-v16.x/docs/api/
+[typescript-5-4]: https://www.typescriptlang.org/
+[ts-badge]: https://img.shields.io/badge/TypeScript-5.4-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2020.00-blue.svg
+[nodejs]: https://nodejs.org/
 [dribble-icon]: https://dribbble.com/Schakalwal
-[eslint-npm]: https://www.npmjs.com/package/eslint
 [typescript-npm]: https://www.npmjs.com/package/typescript
-[prettier-npm]: https://www.npmjs.com/package/prettier
-[ts-node-dev-npm]: https://www.npmjs.com/package/ts-node-dev
-[jest-npm]: https://www.npmjs.com/package/jest
-[express-npm]: https://www.npmjs.com/package/express
-[dotenv-npm]: https://www.npmjs.com/package/dotenv
-[cors-npnm]: https://www.npmjs.com/package/cors
+[tsx-npm]: https://www.npmjs.com/package/tsx
+[tsup-npm]: https://www.npmjs.com/package/tsup
+[@types/node-npm]: https://www.npmjs.com/package/@types/node

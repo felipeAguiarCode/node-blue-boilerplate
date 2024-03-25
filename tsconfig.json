@@ -1,4 +1,9 @@
 {
-	"include": ["src/**/*", "**/*.test.ts"],
-	"exclude": ["src/**/*.spec.ts", "**/demos/*.ts"]
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  }
 }
